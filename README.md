@@ -69,3 +69,45 @@ Donut chart split by Sales agents to show the best performing sales agents. This
 Clustered bar chart is great for showing a lot of technical information within a single graph. Sales agents figures split by year to give a more detailed view for each individual.
 
 ![Screenshots: graph3](Screenshots/IP_12.png)![Screenshots: graph3](Screenshots/IP_13.png)
+
+Face cards show information in an easy to read format, and interactive filters for more technical users requiring specific answers. Perfect for C-Suite who will want the information quick with minimal interaction.
+
+![Screenshots: DASHBOARD](Screenshots/IP_15.png)
+
+Final Dashboard which conforms to BT group schemes and supports both technical and non-technical users (Subotin, 2022). The dashboard can only be viewed by granted users and does not display any customer data. Furthermore as its created within the organisation it can only be viewed by BT employees. 
+
+## Conclusion
+
+The executed process shows an End to End ELT pipeline from Excel workbook, to a complete interactive PowerBI Dashboard. With data quality and integrity checks along the way to ensure the project meets BT and GDPR rules. The use of the Microsoft ecosystem delivered a flawless pipeline which Extracted, Loaded and Transformed the Data with faster ingestion and better accuracy. All while being cost effective and utilising existing licenses within the organisation. The existing knowledge around similar processes helped deliver this project within a timely manner.
+
+Having delivered the project, the benefits to the company are widespread. Firstly, as the pipeline incorporates all the tasks which would normally be done manually in a semi-automated process. The time saved for the company can be utilised elsewhere. In addition, as the checks are done by procedures this eliminates manual data validation.
+
+The dashboard shows the performance of the Leasing department over time. Which previously was not as easily accessible to financial analysts who can now make real time decisions with performance figures. This allows the company to react quicker to market changes. Sales managers can view performance of their employees and reward with accurate bonuses. Executive level managers have the ability to view condensed information while also the ability to interact for more detailed information.
+The primary goal was to help the leasing department conform the digital transformation being undertaken at the organisation. The pipeline helps not only to reduce the time taken to produce reports but all while providing more accurate data, encompassed in a robust pipeline. 
+
+To improve the pipeline, I would firstly set up an email server which is connected to the SQL server. This would allow the Leasing department to send the workbook directly in a secure system. Secondly to fully automate the pipeline I would create a SQL server job and assign a schedule. This would mean no manual inputs would be required once the workbook was sent. Thus, saving the company man hours alongside removing human input (austinnoronha, 2023).
+Another refinement which would help the robustness of the pipeline is to create a staging table so that if any data errors are detected it doesn’t affect the final dashboard. And to help with testing I would recommend one of my colleagues reviews the pipeline to ensure no steps have been missed. 
+
+The advancements would not only improve the dashboard from a technical overview, but also add to the robustness of the design. So that the organisation can continue to improve operational efficiency and informed decision making.
+
+## References
+
+austinnoronha 2023. Automated vs Manual vs Semi-Automated Deployments. BuzzingCode - Learn, Adapt & Code. [Online]. [Accessed 28 August 2024]. Available from: https://buzzingcode.com/cloud-architecture/the-best-deployment-strategy-automated-vs-manual-vs-semi-automated/.
+
+AWS 2022. ETL vs ELT - Difference Between Data-Processing Approaches - AWS. Amazon Web Services, Inc. [Online]. Available from: https://aws.amazon.com/compare/the-difference-between-etl-and-elt/#:~:text=data%20regulation%20requirements.-.
+
+Bisso, I.L. 2020. What is a Primary Key in SQL? LearnSQL.com. [Online]. Available from: https://learnsql.com/blog/primary-key-sql/.BT Group 2016. 
+
+Finance and leasing options for IT kit. BT Business Direct. [Online]. Available from: https://www.businessdirect.bt.com/our-services/leasing/#:~:text=Leasing%3A%20How%20BT%20can%20help%20you%3A&text=Funding%20is%20arranged%20by%20our.Bushong, 
+
+M. 2024. Mastering Enterprise T-SQL ETL/ELT: A Guide with Data Warehouse and Fabric Pipelines | Microsoft Fabric Blog | Microsoft Fabric. Microsoft.com. [Online]. Available from: https://blog.fabric.microsoft.com/en-us/blog/mastering-enterprise-t-sql-etl-elt-a-guide-with-data-warehouse-and-fabric-pipelines?ft=All.Dave 2020. 
+
+Extract. Wikipedia. [Online]. Available from: https://en.wikipedia.org/wiki/Extract.
+
+Elahi, E. 2022. The impact of poor data quality: Risks, challenges, and solutions. Data Ladder. [Online]. Available from: https://dataladder.com/the-impact-of-poor-data-quality-risks-challenges-and-solutions/.
+
+Government of UK 2018. Data Protection Act. GOV.UK. [Online]. Available from: https://www.gov.uk/data-protection.Indeed 2024. What Is the C-Suite? 
+
+Indeed. [Online]. Available from: https://www.indeed.com/career-advice/career-development/c-suite.Subotin, S. 2022. Dashboard Design - Considerations and Best Practices. Toptal Design Blog. [Online]. Available from: https://www.toptal.com/designers/data-visualization/dashboard-design-best-practices#:~:text=User%20research%20is%20important%20because.
+
+Wiki 2020. Extract. Wikipedia. [Online]. Available from: https://en.wikipedia.org/wiki/Extract.Wikipedia Contributors 2019. BT Group. Wikipedia. [Online]. Available from: https://en.wikipedia.org/wiki/BT_Group.
