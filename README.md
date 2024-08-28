@@ -55,3 +55,17 @@ Here I have run 2 different procedures the first one of which, is to check for N
 As all the data checks are complete, I have connected the PowerBI dashboard to the SQL server. Using my credentials for verification so that no one else can use the data. All the columns look good and data was uploaded without any issues.
 
 ## Data Visualisation & Dashboards
+
+![Screenshots: graph1](Screenshots/IP_10.png)
+
+Line graph to show performance over the years to check for trends. This also shows the historical performance for the leasing department. Hovering over a point can give the end user a more accurate figure. Which is great for financial analysts who want compare the performance to other departments. 
+
+![Screenshots: graph2](Screenshots/IP_11.png)
+
+Donut chart split by Sales agents to show the best performing sales agents. This is great for sales managers as it provides a clear overview of all the agents and who’s performing the best.
+
+![Screenshots: graph3](Screenshots/IP_14.png)
+
+Clustered bar chart is great for showing a lot of technical information within a single graph. Sales agents figures split by year to give a more detailed view for each individual.
+
+![Screenshots: graph3](Screenshots/IP_12.png)![Screenshots: graph3](Screenshots/IP_13.png)
