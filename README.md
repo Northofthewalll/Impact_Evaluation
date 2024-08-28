@@ -108,6 +108,8 @@ Elahi, E. 2022. The impact of poor data quality: Risks, challenges, and solution
 
 Government of UK 2018. Data Protection Act. GOV.UK. [Online]. Available from: https://www.gov.uk/data-protection.Indeed 2024. What Is the C-Suite? 
 
-Indeed. [Online]. Available from: https://www.indeed.com/career-advice/career-development/c-suite.Subotin, S. 2022. Dashboard Design - Considerations and Best Practices. Toptal Design Blog. [Online]. Available from: https://www.toptal.com/designers/data-visualization/dashboard-design-best-practices#:~:text=User%20research%20is%20important%20because.
+Indeed. [Online]. Available from: https://www.indeed.com/career-advice/career-development/c-suite.Subotin, 
+
+S. 2022. Dashboard Design - Considerations and Best Practices. Toptal Design Blog. [Online]. Available from: https://www.toptal.com/designers/data-visualization/dashboard-design-best-practices#:~:text=User%20research%20is%20important%20because.
 
 Wiki 2020. Extract. Wikipedia. [Online]. Available from: https://en.wikipedia.org/wiki/Extract.Wikipedia Contributors 2019. BT Group. Wikipedia. [Online]. Available from: https://en.wikipedia.org/wiki/BT_Group.
