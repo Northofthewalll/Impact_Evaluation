@@ -2,7 +2,7 @@
 
 # Contents
 
-[Executive Summary](#Executive Summary)
+[Executive Summary](#Executive-Summary)
 
 [Data Infrastructure & Tools](#)
 
