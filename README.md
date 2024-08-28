@@ -23,3 +23,35 @@ SQL Server Management Studio Is used to load the load the workbook into a table.
 PowerBI is selected, as its also a Microsoft product which makes connecting to a SQL server very easy. Furthermore, it offers a wide range of graphs and charts to create interactive dashboards. While also, offering the security capabilities to protect the data and only allowing authorised users. 
 
 As all 3 parts Excel, SSMS & PowerBI are Microsoft tools this adds to the robustness of the design. I have also reviewed similar projects within the organisation that have used all 3 to great success. Alongside reviewing online material which has shown the effectiveness of the Microsoft tools in an ELT pipeline (Bushong, 2024). 
+
+## Data Engineering
+
+Extracted workbook sent via mail, data has been anonymized not only to meet GDPR but also to meet BT group internal guidelines regarding security and compliance. 
+
+![Screenshots: TABLE CREATE](Screenshots/IP_6.png)
+
+SQL table created with primary key constraint (Bisso, 2020) on the “LEASE” column as the values entered should be unique. As duplicated values within the dataset can have external factors such as reporting to HMRC and shareholders.
+
+![Screenshots: MAPPING](Screenshots/IP_3.png)
+
+Uploading the workbook into a SQL table, here I made sure to check the columns were mapped correctly. Also, to check the datatypes before ingestion, as having the incorrect datatypes can lead to corruption or loss of data.
+
+![Screenshots: MAPPING](Screenshots/IP_4.png)
+
+Workbook successfully uploaded without any errors.
+
+![Screenshots: COUNT](Screenshots/IP_7.png)
+
+To confirm this, I have run a simple COUNT function which will display the number of rows within a given table. I now crosschecked this with the workbook to confirm all rows were uploaded.
+
+![Screenshots: COUNT](Screenshots/IP_8.png)
+
+Here I have run 2 different procedures the first one of which, is to check for NULL values within the “LESSEE” column. The second procedure checks to make sure there are no date values before 2018 and after 2024. This is all part of the data integrity checks so that the analytical results are not affected. As an example, having a single incorrect date value could affect a Sales members bonus for that month (Elahi, 2022).
+
+![Screenshots: DIAG](Screenshots/IP_18.png)
+
+![Screenshots: DIAG](Screenshots/IP_9.png)
+
+As all the data checks are complete, I have connected the PowerBI dashboard to the SQL server. Using my credentials for verification so that no one else can use the data. All the columns look good and data was uploaded without any issues.
+
+## Data Visualisation & Dashboards
